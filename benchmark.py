@@ -126,7 +126,8 @@ def compare_NES_ES(mus0,sigma0,optimums):
             plt.show()
             compare_opt(scores_NES, scores_ES, label2="ES")
 
-
+    
+    #### shows a lot of data for detailed analysis ###
     ES_scores=np.array(ES_scores)
     NES_scores=np.array(NES_scores)
     print(' ')
