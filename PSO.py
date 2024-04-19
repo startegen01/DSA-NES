@@ -123,8 +123,8 @@ def particle_swarm_optimization(opt_problem, num_particles=100, num_iterations=1
 
 # Example usage
 def neg_fitness_function(position):
-    "something which should be minimized!"
-    return (10-position[0])**2 + (2-position[1])**2
+    "something which should be minimized! made into a list to be equivalent to the benchmark functions"
+    return [(10-position[0])**2 + (2-position[1])**2]
 
 if __name__ == "__main__": # a test case
 
